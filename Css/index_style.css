@@ -1,0 +1,83 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #24353f;
+}
+.loginBox{
+    background-color: #24353f;
+    box-shadow: 5px 2px 54px -9px rgb(0 0 0);
+}
+.loginBox h1{
+    color: #17a2b8;
+}
+.loginBox input{
+    border-color: #ced4da;
+    color: #fff !important;
+    background-color: #24353f !important;
+}
+.loginBox button{
+    border-color: #17a2b8 !important;
+    color: #17a2b8 !important;
+}
+.loginBox button:hover{
+    border-color: #17a2b8;
+    background-color: #17a2b8 !important;
+    color: #fff !important;
+}
+.loginBox p,
+a{
+    color: #fff;
+    font-size: 20px;
+}
+
+.third p{
+    font-size: 35px;
+}
+
+.alert{
+    
+    width: 75% !important;
+    background-color: #17a2b8 !important;
+    padding: 3px !important;
+    text-align: left;
+    color: #fff;
+    padding: 0 !important;
+}
+
+span{
+    padding: 5px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

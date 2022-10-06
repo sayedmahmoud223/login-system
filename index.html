@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Css/all.min.css">
+        <link rel="stylesheet" href="Css/bootstrap.min.css">
+        <link rel="stylesheet" href="Css/index_style.css">
+        <title>Login page</title>
+    </head>
+    <body>
+
+        <div class="loginBox w-50 mx-auto my-5 text-center p-4">
+            <h1>Smart Login System</h1>
+            <input class="form-control bg-transparent mt-3" type="email" id="userLEmail" placeholder="Enter your email">
+            <input class="form-control bg-transparent my-3 position-relative" type="password" id="userLPassword" placeholder="Enter your password">
+            <span id="incorrect" class="text-danger d-none  ">incorrect email or password</span>
+            <span id="empty" class="text-danger d-none ">All inputs is required</span>
+            <button id="loginBtn" class="w-100 my-3 btn bg-transparent ">Login</button>
+            <p class="my-3">Don’t have an account? <a href="secondPage.html" class="text-decoration-none">Sign Up</a></p>
+        </div>
+        
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/mine.js"></script>
+    </body>
+</html>

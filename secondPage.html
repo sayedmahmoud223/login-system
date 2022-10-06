@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/index_style.css">
+    <title>Signup page</title>
+</head>
+
+<body>
+
+    <div class="loginBox w-50 mx-auto my-5 text-center p-4">
+        <h1>Smart Login System</h1>
+        <input class="form-control bg-transparent my-3" type="text" id="userName"
+        placeholder="Enter your name">
+        <input class="form-control bg-transparent my-3" type="email" id="userEmail" placeholder="Enter your email">
+        <span class="alert d-none">Enter your Email like sayed@gmail.com</span>
+        <input class="form-control bg-transparent my-3" type="password" id="userPassword"
+            placeholder="Enter your password">
+            <span id="empty" class="text-danger d-none ">All inputs is required</span>
+            <span id="exist" class="text-danger d-none ">email already exists</span>
+            <span id="success" class="text-success d-none ">Success</span>
+        <button id="signupbtn" class="w-100 my-3 btn bg-transparent ">Sign Up</button>
+        <p class="my-3">You have an account? <a href="index.html" class="text-decoration-none">Login</a></p>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/mine.js"></script>
+</body>
+
+</html>
